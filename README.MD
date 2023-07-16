@@ -94,6 +94,7 @@ The frontend application will be accessible at http://localhost:3000.
 
 ## Project Structure
 
+```
 .
 ├── backend # Backend server directory
 │ ├── db.js # Database connection configuration
@@ -106,6 +107,7 @@ The frontend application will be accessible at http://localhost:3000.
 │ └── index.js # Entry point
 ├── public # Public assets
 └── package.json # Frontend dependencies and scripts
+```
 
 ## License
 
