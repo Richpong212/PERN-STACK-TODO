@@ -112,3 +112,37 @@ The frontend application will be accessible at http://localhost:3000.
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
+
+# SETTING UP THE APPLICATION
+
+## SETTING UP THE DATABESE
+
+- Open your terminal and run ; assuming you have install postgress
+  `psql`
+- Start the server of your postgres application
+
+- Create Database For the Application
+  `kwakurich=# CREATE DATABASE rental_app;`
+
+- Create Database SetUp
+  `kwakurich-# CREATE USER hjemproperties WITH PASSWORD 'Iloveu123';`
+
+- Grant Access to the User on the Database
+  `kwakurich-# GRANT ALL PRIVILEGES ON DATEBASE rental_app TO hjemproperties`
+
+- To list all the database
+  `\l`
+
+- To change or connect to the Database
+  `\c rental_app;`
+
+- To change or connect to the database with the userName
+  ` \c rental_app hjemproperties;`
+
+## Installing all the required Dependencies
+
+`xargs npm i <requirement.txt --force`
+
